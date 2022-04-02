@@ -1,0 +1,30 @@
+[
+  {
+    "id" : "01",
+    "text": "for (let i = 0; i < 0; i++) {\n\n<op0>\n}",
+    "vars": 1,
+    "ops": 1,
+    "about": "Just loop"
+  },
+  {
+    "id" : "02",
+    "text": "const <var0> = (<var1>, <var2>) => {\n\nthis.getData(<var1>);\n\n<op0>\n}",
+    "vars": 3,
+    "ops": 1,
+    "about": "Arrow function"
+  },
+  {
+    "id" : "03",
+    "text": "<var0>\n\n.then()\n\n.catch(err => {\n\n<op0>\n\nconsole.log(err);\n});",
+    "vars": 1,
+    "ops": 1,
+    "about": "Sync operations"
+  },
+  {
+    "id" : "04",
+    "text": "try {\n\n<op0>\n\n<op1>\n} catch(e) {\n\n<op2>\n\nconsole.log(e);\n}",
+    "vars": 0,
+    "ops": 3,
+    "about": "Try - catch"
+  }
+]
