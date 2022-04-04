@@ -15,7 +15,7 @@
   },
   {
     "id" : "03",
-    "text": "<var0>\n\n.then()\n\n.catch(err => {\n\n<op0>\n\nconsole.log(err);\n});",
+    "text": "<var0>()\n\n.then()\n\n.catch(err => {\n\n<op0>\n\nconsole.log(err);\n});",
     "vars": 1,
     "ops": 1,
     "about": "Sync operations"

@@ -1,4 +1,5 @@
-const RANDOM_QUOTE_API_URL = 'http://213.217.8.92:2222/text';
+//const RANDOM_QUOTE_API_URL = 'http://213.217.8.92:2222/text';
+const RANDOM_QUOTE_API_URL = 'http://192.168.0.103:2222/text';
 const quoteDisplayElement = document.getElementById('quoteDisplay');
 const quoteInputElement = document.getElementById('quoteInput');
 const timerElement = document.getElementById('timer');

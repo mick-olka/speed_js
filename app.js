@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use((req, res, next) => {
-    const corsWhiteList = ['localhost:3000', 'http://213.217.8.92:2222', 'http://mickolka.pp.ua'];
+    const corsWhiteList = ['localhost:3000', 'http://213.217.8.92:2222', 'http://mickolka.pp.ua', 'http://192.168.0.103:2222'];
     const origin=req.headers.origin;
     if  (corsWhiteList.includes(origin)) {
         res.header('Access-Control-Allow-Origin', origin);
