@@ -21,6 +21,8 @@ const fillSchema = (schema_data) => {
   for (let t = 0; t < schema_data.ops; t++) {
     let op = rArr(operations);
     let op_text = op.text;
+    op_text = op_text.replace(getReg('rn', 0), Math.floor(Math.random()*10000));
+    console.log(op_text);
     for (let q=0; q<op.vars; q++) {
       op_text = op_text.replace(getReg('var', q), rArr(words));
     }
