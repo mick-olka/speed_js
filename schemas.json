@@ -12,9 +12,9 @@
     "about": "Arrow function"
   },
   {
-    "text": "<var0>()\n\n.then()\n\n.catch(err => {\n\n<op0>\n\nconsole.log(err);\n});",
+    "text": "<var0>()\n\n.then(value => {\n\n<op0>\n\n})\n\n.catch(err => {\n\n<op1>\n\nconsole.log(err);\n});",
     "vars": 1,
-    "ops": 1,
+    "ops": 2,
     "about": "Sync operations"
   },
   {
@@ -42,9 +42,45 @@
     "about": "If-else"
   },
   {
-    "text": "function <var0>(<var1> = <rn>) {\n\n<op0>\n\n<op1>\n}",
-    "vars": 1,
+    "text": "function <var0>(<var1> = <rn0>) {\n\n<op0>\n\n<op1>\n}",
+    "vars": 2,
     "ops": 2,
     "about": "If-else"
+  },
+  {
+    "text": "setValues(prev => [newValue, ...prev]);\n//  <var0>",
+    "vars": 1,
+    "ops": 0,
+    "about": "React func: Guarantees that we are working with previous state"
+  },
+  {
+    "text": "while(<var0> !== <rn0>) {\n\n<op0>\n}",
+    "vars": 1,
+    "ops": 1,
+    "about": "while"
+  },
+  {
+    "text": "switch(<var0>) {\n\ncase \"<var1>\":\n\n<op0>\n\nbreak;\n\ncase \"<var2>\":\n\n<op1>\n\nbreak;\n\ndefault:\n\n<op2>\n}",
+    "vars": 1,
+    "ops": 1,
+    "about": "swift-case"
+  },
+  {
+    "text": "const <var0> = {\n\n<var1>: \"<var2>\",\n\n<var3>: <rn0>,\n\ncallback: (data) => {\n\n<op0>\n\n}\n}",
+    "vars": 4,
+    "ops": 1,
+    "about": "just obj"
+  },
+  {
+    "text": "for (let el in <var0>) {\n\n<var1> += <var0>[el];\n} ",
+    "vars": 2,
+    "ops": 0,
+    "about": "The JavaScript for in statement loops through the properties of an Object"
+  },
+  {
+    "text": "for (const item of <var0>) {\n\nperformAction(item);\n}",
+    "vars": 1,
+    "ops": 0,
+    "about": "Iterating over a String or an Array\n"
   }
 ]

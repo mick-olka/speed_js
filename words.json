@@ -1,8 +1,13 @@
 ["query", "integer", "parameter", "args", "variables", "array", "matrix", "vectors", "stream", "original", "files", "path", "panel", "timer", "input", "progress",
-"updated", "binaryToRemove", "cryingFear", "distortion", "procedure", "users", "coordinates", "updatedPoints", "relatedProducts", "chosenIds", "processedData",
+"updated", "binaryToRemove", "distortion", "procedure", "users", "coordinates", "updatedPoints", "relatedProducts", "chosenIds", "processedData",
 "password", "encryption", "oneMoreError", "oneMoreTypoAndGameOver", "whyAmIDoingIt", "fractions", "sourceTree", "graph", "message", "connection", "link",
 "newError", "preprocessed", "host", "text", "test936", "manager", "one100days", "binaryStream", "resource", "request", "position", "message", "initData",
 "productsArray", "daysLeft", "isVisible", "count", "requests_to_resolve", "remote_origin", "keyCode", "version", "dimension", "area", "matrix", "methodology",
-"functionality", "specific", "navigation", "loader", "program", "script", "language", "locale", "integer", "parser", "auto_fix", "on_error", "observer",
-"consumer", "client", "admin", "validity_check", "validation", "reqExp", "operator", "action", "interval"]
-
+"functionality", "specific", "navigation", "loader", "program", "script", "language", "locale", "expression", "parser", "auto_fix", "on_error", "observer",
+"consumer", "client", "admin", "validity_check", "validation", "reqExp", "operator", "action", "interval", "object", "space", "downloader",
+"refresh", "multiplayer", "singleplayer", "inventory", "post", "decimal", "summary", "reducer", "thumbnail", "phone_number", "return_button",
+"parent", "descendant", "security", "cache", "new_product_data", "identification", "checkpoint", "actual-date", "updated_info", "raw_data", "velocity",
+"opacity", "background-color", "grid-template-rows", "svg_icon", "borders", "font-family", "chosen_ids", "checked_positions", "subscribeObserver",
+"char_validator", "section", "showMenu", "isLoading", "isDataFetched", "zebra", "QZP", "props.required", "state.profileData", "response[\"qualification\"]",
+"props.mainLayoutData", "state.preservedWords", "quantity", "query.person.name", "abstraction", "poetry", "quote", "brainstorm", "meeting", "Jonathan",
+  "DIO", "speed-checker", "foundation", "master", "desktop", "cloud-storage", "network", "default_data", "$no_money"]

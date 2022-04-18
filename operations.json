@@ -54,5 +54,17 @@
     {
         "text": "callback && callback(<var0>);",
         "vars": 1
+    },
+    {
+        "text": "<var0>.sort();",
+        "vars": 1
+    },
+    {
+        "text": "let <var0> = <var1>.search(\"<var2>\");",
+        "vars": 3
+    },
+    {
+        "text": "setTimeout(<var0>, 3000);",
+        "vars": 1
     }
 ]
