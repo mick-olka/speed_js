@@ -66,5 +66,9 @@
     {
         "text": "setTimeout(<var0>, 3000);",
         "vars": 1
+    },
+    {
+        "text": "let <var0> = (<var1> / <var2>) + <var3> * <rn0>;",
+        "vars": 4
     }
 ]

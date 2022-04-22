@@ -61,8 +61,8 @@
   },
   {
     "text": "switch(<var0>) {\n\ncase \"<var1>\":\n\n<op0>\n\nbreak;\n\ncase \"<var2>\":\n\n<op1>\n\nbreak;\n\ndefault:\n\n<op2>\n}",
-    "vars": 1,
-    "ops": 1,
+    "vars": 3,
+    "ops": 3,
     "about": "swift-case"
   },
   {
@@ -72,7 +72,7 @@
     "about": "just obj"
   },
   {
-    "text": "for (let el in <var0>) {\n\n<var1> += <var0>[el];\n} ",
+    "text": "for (let el in <var0>) {\n\n<var1> += <var0>[el];\n}",
     "vars": 2,
     "ops": 0,
     "about": "The JavaScript for in statement loops through the properties of an Object"
@@ -81,6 +81,18 @@
     "text": "for (const item of <var0>) {\n\nperformAction(item);\n}",
     "vars": 1,
     "ops": 0,
-    "about": "Iterating over a String or an Array\n"
+    "about": "Iterating over a String or an Array"
+  },
+  {
+    "text": "<var0>.addEventListener('click', (event) => {\n\nevent.preventDefault();\n\n<op0>\n});",
+    "vars": 1,
+    "ops": 1,
+    "about": "Event listener"
+  },
+  {
+    "text": "const <var0> = setInterval(() => {\n\n<op0>\n}, <rn0>)",
+    "vars": 1,
+    "ops": 1,
+    "about": "Event listener"
   }
 ]
